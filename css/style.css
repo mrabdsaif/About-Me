@@ -1,54 +1,54 @@
-*{
+body{
     margin: 0;
     padding: 0;
-    background: #FDFDE9;
 }
 h1{
-    width: 30%;
+    width: 100%;
     color: #CACABE;
     text-align: center;
-    font: 40px 50px Tahoma, Geneva, sans-serif;
+    font: 100px "Courier New", Courier, monospace;
     padding: 20px;
-    background:#ffffff;
+    background:white;
     margin: auto;
-    border-radius: 20px;
-    
+    /* border-radius: 50px; */
 }
 h1:hover{
     
-    box-shadow: 4px 4px gainsboro,
-                -4px -4px;
+    box-shadow: 4px 4px 6px 6px gainsboro;
 }
 header p{
-    color: cadetblue;
-    font: 30px 40px Tahoma, Geneva, sans-serif;
+    color: whitesmoke;
+    font: 50px "Courier New", Courier, monospace;
     text-align: center;
     margin: 20px;
 }
+header p:hover{
+    box-shadow: 4px 4px 6px 6px gainsboro;
+}
 h2 {
+    color: whitesmoke;
     padding: 20px;
     width: 30%;
     margin: auto;
     text-align: center;
-    font: 10px 20px Tahoma, Geneva, sans-serif;
+    font: 30px "Courier New", Courier, monospace;
 }
 .main-grid1{
-    display: grid;
-    grid-template-columns: 25fr 30fr 25fr;
-    margin: 50px;
+    display: inline-block;
+    /* grid-template-columns: 25fr 30fr 25fr; */
+    margin-left: 655px;
     line-height: 1.5;
     text-align: center;
     font: 10px 20px Tahoma, Geneva, sans-serif;
 }
-.main-grid2{
-    display: grid;
-    grid-template-columns: 30fr 30fr;
-    margin: 50px;
+.main2{
+    display: inline-block;
+    /* grid-template-columns: 25fr 30fr 25fr; */
+    margin-left: 625px;
     line-height: 1.5;
     text-align: center;
     font: 10px 20px Tahoma, Geneva, sans-serif;
 }
-
 .item1 {
     padding: 20px;
     font-size: 15px;
@@ -61,13 +61,38 @@ h2 {
     color: rgb(94, 115, 124);
     /* border-radius: 50%; */
 }
+.item2{
+    padding: 20px;
+    font-size: 15px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
+.item2:hover{
+    background-color: #EDE7DC;
+    color: rgb(94, 115, 124);
+    /* border-radius: 50%; */
+}
 
-.item1 h3{
+ h3{
     background: #FDFDE9; 
 }
-.item1 h3:hover {
+ h3:hover {
     background-color: #EDE7DC;
 }
+.item2 p{
+    background: #FDFDE9;
+}
+.item2 p:hover{
+    background-color: #EDE7DC;
+}
+
+/* header p {
+    background: #FDFDE9;
+}
+header p:hover{
+    background: #FDFDE9;
+} */
+
 .item1 p{
     background: #FDFDE9;
 }
