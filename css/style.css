@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #FDFDE9;
+}
+h1{
+    width: 30%;
+    color: #CACABE;
+    text-align: center;
+    font: 40px 50px Tahoma, Geneva, sans-serif;
+    padding: 20px;
+    background:#ffffff;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+h1:hover{
+    
+    box-shadow: 4px 4px gainsboro,
+                -4px -4px;
+}
+header p{
+    color: cadetblue;
+    font: 30px 40px Tahoma, Geneva, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+h2 {
+    padding: 20px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font: 10px 20px Tahoma, Geneva, sans-serif;
+}
+.main-grid1{
+    display: grid;
+    grid-template-columns: 25fr 30fr 25fr;
+    margin: 50px;
+    line-height: 1.5;
+    text-align: center;
+    font: 10px 20px Tahoma, Geneva, sans-serif;
+}
+.main-grid2{
+    display: grid;
+    grid-template-columns: 30fr 30fr;
+    margin: 50px;
+    line-height: 1.5;
+    text-align: center;
+    font: 10px 20px Tahoma, Geneva, sans-serif;
+}
+
+.item1 {
+    padding: 20px;
+    font-size: 15px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    
+  }
+.item1:hover{
+    background-color: #EDE7DC;
+    color: rgb(94, 115, 124);
+    /* border-radius: 50%; */
+}
+
+.item1 h3{
+    background: #FDFDE9; 
+}
+.item1 h3:hover {
+    background-color: #EDE7DC;
+}
+.item1 p{
+    background: #FDFDE9;
+}
+.item1 p:hover{
+    background-color: #EDE7DC;
+}
