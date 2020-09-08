@@ -6,15 +6,16 @@ h1{
     width: 100%;
     color: #CACABE;
     text-align: center;
-    font: 100px "Courier New", Courier, monospace;
+    font: 70px "Courier New", Courier, monospace;
     padding: 20px;
     background:white;
     margin: auto;
-    /* border-radius: 50px; */
+    
 }
 h1:hover{
     
     box-shadow: 4px 4px 6px 6px gainsboro;
+    word-spacing: 30px;
 }
 header p{
     color: whitesmoke;
@@ -24,6 +25,8 @@ header p{
 }
 header p:hover{
     box-shadow: 4px 4px 6px 6px gainsboro;
+    border-radius: 50px;
+    word-spacing: 30px;
 }
 h2 {
     color: whitesmoke;
