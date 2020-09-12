@@ -1,6 +1,5 @@
 'use strict';
 var score = 0;
-// Intro Function 
 var userName = '';
 userName.toLowerCase();
 userIntro(userName);
@@ -9,10 +8,9 @@ function userIntro(userName) {
 
     var whoWantToGus = confirm('Would You Like to Play a Gusseng Game Mr/Ms. ' + userName);
     alert(' Mr/Ms ' + userName + ' Your answers Shoud be y/n or yes/no');
-    //If He/she Does not want to play and choose no how can we end the script right here!!
 }
 
-// Question 1 Function  !!!!
+
 
 var majorName = '';
 function major(majorName) {
@@ -32,7 +30,6 @@ majorName.toLowerCase();
 major(majorName);
 
 
-//Question 2  Funation !!!!
 var uniName = '';
 uniName = prompt('My University Name was University of Jordan?').toLowerCase();
 
@@ -51,8 +48,7 @@ function university(uniName) {
 }
 
 
-//Question 3 Function !!!!!
-var graduatedYear = 2010; //How Can I define numarical Variables without assigning values!!
+var graduatedYear = 2010; 
 graduatedYear = prompt(' My Grad Year was in 2010?');
 graduatedYear.toLowerCase();
 gradYear(graduatedYear);
@@ -69,7 +65,6 @@ function gradYear(graduatedYear) {
         alert('Dear, You are Just Hitting Enter Tab :)')
     }
 }
-//Question 4 Function !!!!
 
 var firstWork = '';
 firstWork = prompt('My first Work was Data analyst?'); firstWork.toLowerCase();
@@ -89,7 +84,6 @@ function fWork(firstWork) {
 }
 
 
-//Question 5 Function !!!!
 
 var whoWantToGus = confirm('Are You Getting Enough Joy Dear? Would you like to go on?');
 var secondWork = 'Methodologist';
@@ -107,7 +101,6 @@ function scWork(secondWork) {
     }
 }
 
-//Question 6 function Lab 04 !!!!!
 
 userInput = prompt('Guess The Number Of The Top Places that I Have Visited!');
 var userInput = Number(userInput);
@@ -134,9 +127,6 @@ function userNumber(userInput) {
         }
     }
 }
-//َQuestion 7 Function Lab 04 !!!!!
-// My array defines  my fav colors !!!
-// The User will try to Guess one of My fav colors !!!
 
 var favColor = ['black', 'blue', 'gray', 'red', 'yellwo', 'green', 'white', 'softwhite', 'darkgray', 'Ivory'];
 alert('For The Next Question You Have Just 6 Times To Try!!!');
