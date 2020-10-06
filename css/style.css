@@ -7,17 +7,14 @@ header{
     padding: 0;
     /* position: relative; */
 }
-.clear{
-    clear: both;
-}
 header a {
     position: absolute;
     display: inline-block;
-    top: 190px;
-    left: 1px;
+    top: 280px;
+    left: 10px;
     text-decoration: none;
-    background-color: rgba(255, 196, 0, 0.3);
-    width: 32%;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 12%;
     padding: 5px;
     color: white;
     border-radius: 3px;
@@ -38,7 +35,7 @@ header a span:hover{
     margin: auto;
 }
 header img{
-    height: 150px;
+    height: 250px;
     width: 100%;
     margin: 0%;
 }
@@ -113,24 +110,24 @@ h3:hover{
     box-shadow: 2px 2px 3px 3px gainsboro;
 }
 .main1{
-    width: 20%;
-    margin-left: 570px;
+    width: 50%;
+    margin-left: 350px;
     line-height: 1.5;
     text-align: center;
     font: 10px 20px Tahoma, Geneva, sans-serif;
     list-style-type: none; 
-    float: left;
+    display: flex;
 }
-.clear{
-    clear: both; 
+.main1 li{
+    flex: 1;
 }
+
 .main2{
     width: 20%;
     margin-left: 570px;
     line-height: 1.5;
     text-align: center;
     font: 10px 20px Tahoma, Geneva, sans-serif;
-    float: left;
     list-style-type: none;
 }
 .main3{
@@ -138,7 +135,7 @@ h3:hover{
     line-height: 1.5;
     text-align: center;
     font: 10px 20px Tahoma, Geneva, sans-serif;
-    
+    margin: 40px;
     list-style-type: none;
     color: teal;
     display: flex;
@@ -147,12 +144,13 @@ h3:hover{
     padding: 20px;
     font-size: 12px;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    text-align: center;
+    margin: 20px 0 20px 0;
   }
 .item1:hover{
     background-color:#ffffCB;
     color: rgb(94, 115, 124);
-    border-radius: 5%;
+    border-radius: 2%;
+    box-shadow: 1px 1px 3px black;
 }
 .item2{
     flex: 1;
@@ -164,7 +162,9 @@ h3:hover{
     margin: 5px;
     margin: 50px 0 0px 50px;
 }
-
+.item2 a{
+    text-decoration: none;
+}
 .item2:hover{
     border-radius: 20px;
     box-shadow: 1px 1px 3px #000000;
