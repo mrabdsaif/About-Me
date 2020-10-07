@@ -25,4 +25,4 @@ Meanwhile, we were working on the html doc, css file and Jscript file. It was a 
 * Eventually We defined functions to be a container for the above conditions, and as I saw, The functions were so helpful to make the js well organized and this was helpful to run many codes in just only one function.
 
 Made By : Abdullah Saif 
-
+this me 
